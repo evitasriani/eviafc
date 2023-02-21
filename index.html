@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/jquery-ui.css">
+  	<script src="js/jquery-3.1.1.js"></script>
+  	<script src="js/jquery-ui.min.js"></script>
+  	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+	<link rel="shortcut icon" href='afcdoraemon.png' />
+	<script type="text/javascript" src="function.js"></script>
+	
+
+	<title>Evi Tasriani | AFC Doraemon Squad</title>
+
+</head>
+<body>
+
+
+	<!--HEADER-->
+	<header>
+		<div id="logo">
+			<a href="#">
+				<img id="imgLogo" src="afcdoraemon.png" alt="Logo" width="50px" height="50px">
+			</a>
+		</div>
+
+		<nav role="navigation" id="main-nav">
+            <div id="menuToggle">
+				
+              <input id="cbham" type="checkbox" style="display: none;"/>
+                <span></span>
+                <span></span>
+                <span></span>
+            <ul id="menu">
+				<a href="#home"><li>Home</li></a>
+				<a href="#profile"><li>Profile</li></a>
+				<a href="#education"><li>Education</li></a>
+				<a href="#experience"><li>Experience</li></a>
+				<a href="#skill"><li>Skill</li></a>
+				<a href="#portofolio"><li>Portofilio</li></a>
+				<a href="#certificate"><li>Certificate</li></a>
+				<a href="#contact"><li>Social Media &amp; Contact</li></a>	
+            </ul>
+           </div>
+          </nav>
+	</header>
+
+	<!--HOME-->
+
+	<section id="home">
+		<div>
+			<hr>
+		<h1 style="color:black;">Evi Tasriani</h1>
+		<h2 style="color:#525252">AFC DORAEMON SQUAD</h2>
+		<a href="#profile">
+			<img src="img/pfeil.png" alt="Pfeil">
+		</a>
+		</div>
+	</section>
+
+	<!--PROFILE-->
+
+	<section id="profile">
+		
+		<h3>Profile</h3>
+		<hr>
+		<img src="img/andrewvc72(HD).png" alt="Avatar">
+		<h4>EVI TASRIANI</h4>
+		<div style="overflow-x:auto;">
+		<table align="center" border="1" style="padding-left: 5px;">
+			<p>
+		<tr>
+			<td>Name  </td>
+			<td>Evi Tasriani</td>
+		</tr>
+		<tr>
+			<td>Date of Birth  </td>
+			<td>Jayapura, 10 March 1999</td>
+		</tr>
+				<tr>
+			<td>Gender  </td>
+			<td>Male</td>
+		</tr>
+				<tr>
+			<td>Status  </td>
+			<td>Student</td>
+		</tr>
+				<tr>
+			<td>Religion  </td>
+			<td>Christian Protestant</td>
+		</tr>
+				<tr>
+			<td>Nationality  </td>
+			<td>Indonesia</td>
+		</tr>
+				<tr>
+			<td>Height  </td>
+			<td>180 cm</td>
+		</tr>
+				<tr>
+			<td>Weight  </td>
+			<td>55 kg</td>
+		</tr>
+				<tr>
+			<td>Address  </td>
+			<td>Nindya Karya street number 9, Jayapura, Papua</td>
+		</tr>
+		</p>
+		</table>
+	</div>
+	</section>
+
+
+	<!--EDUCATION-->
+
+	<section id="education">
+		<h3>Education</h3>
+		<hr>
+		<button class="collapsible">Elementary School</button>
+		<div class="content">
+		<img src="img/kartika.jpg" alt="SD Kartika VI-I">
+		  <p>2004-2010 : SD KARTIKA VI-I JAYAPURA</p>
+		</div>
+		<button class="collapsible">Junior High School</button>
+		<div class="content">
+		<img src="img/smpn1.png" alt="SMP N 1 Jayapura">
+		  <p>2010-2013 : SMP NEGERI 1 JAYAPURA</p>
+		</div>
+		<button class="collapsible">Senior High School/Vocational High School</button>
+		<div class="content">
+		<img src="img/smkn1.png" alt="SMK N 1 Jayapura">
+		  <p>2013-2016 : SMK NEGERI 1 JAYAPURA</p>
+		</div>
+		<button class="collapsible">College</button>
+		<div class="content">
+		<img src="img/amikom.png" style="width:226px; height:223px;" alt="UNIVERSITAS AMIKOM YOGYAKARTA">
+		  <p>2016-Present : AMIKOM UNIVERSITY YOGYAKARTA</p>
+		</div>
+
+	</section>
+
+	<!--EXPERIENCE-->
+
+	<section id="experience">
+		<h3>Experience</h3>
+		<hr>
+		<button class="collapsible">Lomba LKS tingkat Kota</button>
+		<div class="content">
+		  <p>Juara 3 LKS Pemrograman Web tingkat Kota (2015)</p>
+		  <div id="imagesEXP">
+		  <img src="img/lks.jpg" width="500" style="max-width:100%;cursor:pointer"
+	onclick="onClick(this)" class="modal-hover-opacity">
+		  </div>
+		</div>
+		<button class="collapsible">Apprenticeship (Vocational High School)</button>
+		<div class="content">
+		  <p>PKL SMK di Bank Pembangunan Daerah Papua (2016)</p>
+		  <div id="imagesEXP">
+		  <img src="img/bpd.jpg" style="max-width:100%;cursor:pointer"
+	onclick="onClick(this)" class="modal-hover-opacity">
+		</div>
+		</div>
+		<button class="collapsible">Math Competitions</button>
+		<div class="content">
+		  <p>Lomba Matematika di Universitas Cendrawasih Papua</p>
+		  <div id="imagesEXP">
+		  <img src="img/mtk.jpg" width="500px" style="max-width:100%;cursor:pointer"
+	onclick="onClick(this)" class="modal-hover-opacity">
+		</div>
+		</div>
+		<div id="modal01" class="modal" onclick="this.style.display='none'">
+  		<span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  		<div class="modal-content">
+    	<img id="img01" style="max-width:100%">
+  		</div>
+  		 <div id="caption"></div>
+
+</div>
+	</section>
+
+	<!--SKILL-->
+
+	<section id="skill">
+		<h3>Skill</h3>
+		<hr>
+<div class="skillbar clearfix " data-percent="80%">
+	<div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
+	<div class="skillbar-bar" style="background: #e67e22;"></div>
+	<div class="skill-bar-percent">80%</div>
+</div> <!-- End Skill Bar -->
+
+<div class="skillbar clearfix " data-percent="60%">
+	<div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
+	<div class="skillbar-bar" style="background: #3498db;"></div>
+	<div class="skill-bar-percent">60%</div>
+</div> <!-- End Skill Bar -->
+
+<div class="skillbar clearfix " data-percent="25%">
+	<div class="skillbar-title" style="background: #268c01;"><span>jQuery</span></div>
+	<div class="skillbar-bar" style="background: #2ba001;"></div>
+	<div class="skill-bar-percent">25%</div>
+</div> <!-- End Skill Bar -->
+
+<div class="skillbar clearfix " data-percent="80%">
+	<div class="skillbar-title" style="background: #46465e;"><span>PHP</span></div>
+	<div class="skillbar-bar" style="background: #5a68a5;"></div>
+	<div class="skill-bar-percent">80%</div>
+</div> <!-- End Skill Bar -->
+
+<div class="skillbar clearfix " data-percent="40%">
+	<div class="skillbar-title" style="background: #333333;"><span>C++/C#</span></div>
+	<div class="skillbar-bar" style="background: #525252;"></div>
+	<div class="skill-bar-percent">40%</div>
+</div> <!-- End Skill Bar -->
+
+<div class="skillbar clearfix " data-percent="20%">
+	<div class="skillbar-title" style="background: #bedd75;"><span>JAVA</span></div>
+	<div class="skillbar-bar" style="background: #cbed7d;"></div>
+	<div class="skill-bar-percent">20%</div>
+</div> <!-- End Skill Bar -->
+
+<div class="skillbar clearfix " data-percent="40%">
+	<div class="skillbar-title" style="background: #124e8c;"><span>Photoshop</span></div>
+	<div class="skillbar-bar" style="background: #4288d0;"></div>
+	<div class="skill-bar-percent">40%</div>
+</div> <!-- End Skill Bar -->
+	</section>
+
+	<!--PORTOFOLIO-->
+
+	<section id="portofolio">
+		<h3>Portofolio</h3>
+		<hr>
+		<div id="images">
+			<ul>
+				<li><img src="img/automod.png" alt="AutoMod" style="max-width:100%;cursor:pointer"
+	onclick="onClick(this)" class="modal-hover-opacity"></li>
+				<li><img src="img/atk.png" alt="Inventory ATK berbasis Dekstop" style="max-width:100%;cursor:pointer"
+	onclick="onClick(this)" class="modal-hover-opacity"></li>				
+				<li><img src="img/atkweb.png" alt="Inventory ATK berbasis WEB" style="max-width:100%;cursor:pointer"
+	onclick="onClick(this)" class="modal-hover-opacity"></li>	
+			</ul>
+		</div>
+		<div id="modal01" class="modal" onclick="this.style.display='none'">
+  		<span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  		<div class="modal-content">
+    	<img id="img01" style="max-width:100%">
+		<div id="caption" class="caption"></div>
+  		</div>
+		
+</div>
+
+	</section>
+	
+	
+	<!--CERTIFICATE-->
+
+	<section id="certificate">
+		<h3>CERTIFICATE</h3>
+		<hr>
+		<div id="images">
+			<ul>
+				<li><img src="img/certiITC.jpg" alt="ITC Certificate" style="max-width:100%;cursor:pointer"
+	onclick="onClick(this)" class="modal-hover-opacity"></li>
+				<li><img src="img/certiJuniorweb.jpg" alt="Web Developer BNSP Certificate" style="max-width:100%;cursor:pointer"
+	onclick="onClick(this)" class="modal-hover-opacity"></li>
+				<li><img src="img/certificate google digital garage.png" alt="Google Digital Garage Certificate" style="max-width:100%;cursor:pointer"
+	onclick="onClick(this)" class="modal-hover-opacity"></li>
+						
+			</ul>
+		</div>
+
+		<div id="modal01" class="modal" onclick="this.style.display='none'">
+  		<span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  		<div class="modal-content">
+    	<img id="img01" style="max-width:100%">
+		<div id="caption" class="caption"></div>
+  		</div>
+  		
+
+</div>
+	</section>
+
+	<!--FOOTER-->
+	<div class="clearfix"></div>
+	<footer>
+		<div id="footer-inner">
+			<section class="one-third" id="footer-third">
+					<h3 id="contact">Contact</h3>
+					<br>
+					<p class="footercontact">Evi Tasriani<br>
+					<!--<b class="fa fa-phone-square"> +6281326118259</b><br>-->
+					<a href="mailto:andrewdefretes@gmail.com" target="_blank" class="fa fa-envelope"></a> andrewdefretes@gmail.com
+
+				</p>
+				</section>
+				<section class="one-third" id="footer-third">
+					<h3>Social</h3>
+					<br>
+					<ul class="social">
+						<li><a href="https://www.facebook.com/andrewbelanda" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://www.instagram.com/dreeew_" target="_blank"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://www.twitter.com/Andrewdef1" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://www.youtube.com/channel/UCHftcjOZzKAfUQAclrOnvxg" target="_blank"><i class="fa fa-youtube"></i></a></li>
+					</ul>
+				</section>
+				<section class="one-third" id="footer-third-last">
+					<h3>Pages</h3>
+					<br>
+					<h5>
+				<a href="#"><li>Home</li></a>
+				<a href="#profile"><li>Profile</li></a>
+				<a href="#education"><li>Education</li></a>
+				<a href="#experience"><li>Experience</li></a>
+				<a href="#skill"><li>Skill</li></a>
+				<a href="#portofolio"><li>Portofilio</li></a>
+				<a href="#certificate"><li>Certificate</li></a>
+				<a href="#contact"><li>Social Media &amp; Contact</li></a>	
+					</h5>
+				</section>
+			</div>
+		</footer>
+		<footer class="second">
+			<p>&copy; Evi Tasriani, 2018.</p>
+		</footer>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+<script type="text/javascript">
+	function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
+</script>
+<script>
+	
+	$(window).resize(function() {
+  if ($(window).width() <= 480) {
+	document.getElementById("cbham").style.display = "block"; 
+  } else {
+	document.getElementById("cbham").style.display = "none"; 
+  }
+
+});
+
+</script>
+
+</body>
+</html>
