@@ -119,6 +119,25 @@ header nav ul li:hover {
 header .fa-bars {
 	display: none;
 }
+
+.float{
+	position:fixed;
+	max-width:auto;
+	/* height: 50px; */
+	bottom:40px;
+	right:20px;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
 /* HOMEE */
 
 #home {
